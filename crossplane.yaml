@@ -10,9 +10,10 @@ spec:
     version: ">=v1.14.5"
   dependsOn:
     - provider: xpkg.upbound.io/upbound/provider-aws-ec2
-      version: ">=v1.2.0"
+      version: ">=v1.1.0"
     - provider: xpkg.upbound.io/upbound/provider-aws-rds
-      version: ">=v1.2.0"
+      version: ">=v1.1.0"
     - provider: xpkg.upbound.io/upbound/provider-aws-iam
-      version: ">=v1.2.0"
-
+      version: ">=v1.1.0"
+    - configuration: xpkg.upbound.io/upbound/platform-ref-aws
+      version: ">=v1.1.0"
